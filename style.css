@@ -552,7 +552,8 @@ body {
     margin-left: 25px;
 }
 
-.popular-right-wrapper {
+.popular-right-wrapper ,
+.popular-right-wrapper-3{
     display: flex;
     flex-direction: column;
     margin-left:
@@ -718,11 +719,18 @@ body {
         position: relative;
         width: 160px;
         right: 30%;
-        text-align: left;
-        top: 1%;
+        text-align: left top;
         transform: scale(1.2);
     }
 
+    .popular-right-wrapper-3{
+        position: relative;
+        width: 160px;
+        right: 30%;
+        bottom:70px;
+        text-align: left top;
+        transform: scale(1.2);
+    }
 
 
     .colorintro-text {
