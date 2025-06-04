@@ -689,7 +689,7 @@ body {
         align-items: flex-start;
         max-width: 1200px;
         padding: 0 48px;
-        margin: 96px auto;
+        margin: 40px auto;
         gap: 48px;
         position: relative;
     }
@@ -720,6 +720,7 @@ body {
         width: 160px;
         right: 30%;
         text-align: left top;
+        bottom: 30px;
         transform: scale(1.2);
     }
 
@@ -727,7 +728,7 @@ body {
         position: relative;
         width: 160px;
         right: 30%;
-        bottom:70px;
+        bottom:110px;
         text-align: left top;
         transform: scale(1.2);
     }
@@ -796,7 +797,7 @@ body {
         text-align: right;
         margin-left: auto;
         margin-right: -225px;
-        bottom: 10px;
+        top:15px;
     }
 
     .colorintro-text.align-right {
@@ -870,7 +871,7 @@ body {
 @media (min-width: 1024px) {
     .pop-end {
         max-width: 1200px;
-        margin: 96px auto;
+        margin: 40px auto;
         padding: 48px 32px;
         gap: 48px;
         flex-wrap: nowrap;
