@@ -942,12 +942,13 @@ body {
 .news-pic {
     display: flex;
     justify-content: center;
+    min-height: 300px;
 }
 
 .news-pic img {
     width: 80%;
     border-radius: 8px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     margin-bottom: 16px;
 }
@@ -969,6 +970,7 @@ body {
     color: #222;
     margin-bottom: 8px;
     padding-left: 4px;
+    min-height: 150px;
 }
 
 @media (min-width: 768px) {
