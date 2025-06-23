@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Noto+Serif+TC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="iphone">
+        <div class="main-page">
+            <div class="logo">
+                <img src="img/logo/logo.png" alt="CHOILIPS Logo" />
+            </div>
+            <div class="menu" id="menuBtn">
+                <span class="bar short top"></span>
+                <span class="bar long middle"></span>
+                <span class="bar short bottom"></span>
+            </div>
+        </div>
+
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <ul>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="color_test.html">Try Your Lips</a></li>
+                <li><a href="lip_tones.html">Lip Tones</a></li>
+                <li><a href="lip_archive.html">Lip Archive</a></li>
+                <li><a href="lips_life.html">Lips Life</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="main-title">
+            <span>Lip Archive</span>
+        </div>
+
+        <div class="filter-group">
+            <button id="filterToggle" class="filter-toggle-btn">
+                篩選條件
+                <i class="fa-solid fa-caret-down"></i>
+            </button>
+
+            <div id="filterPanel" class="filter-panel" style="display: none;">
+                <label>品牌搜索：</label>
+                <input type="text" placeholder="請輸入品牌名稱">
+
+                <label>色系：</label>
+                <select>
+                    <option value="">全部色系</option>
+                    <option>經典正紅</option>
+                    <option>磚紅色</option>
+                    <option>酒紅</option>
+                    <option>桃紅</option>
+                    <option>玫瑰粉</option>
+                    <option>嫩粉紅</option>
+                    <option>粉橘色</option>
+                    <option>珊瑚粉</option>
+                    <option>橙褐色</option>
+                    <option>象牙裸色</option>
+                    <option>其他色系</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="archive-list">
+            <!-- card1 -->
+            <div class="archive-card" data-brand="YSL" data-color="嫩粉紅" data-href="product_001.html">
+                <div class="archive-pic">
+                    <img src="./img/lipsticks/6.jpg" alt="">
+                </div>
+                <div class="archive-textgroup">
+                    <span class="achive-brand-name">YSL</span>
+                    <span class="achive-name">情挑誘光潤唇膏</span>
+                    <div class="btn-wrapper">
+                        <div class="btn-outline-arrow">
+                            <a href="#">
+                                <span>看看這隻唇膏</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="archive-card" data-brand="CHANEL" data-color="磚紅色" data-href="product_002.html">
+                <div class="archive-pic">
+                    <img src="./img/lipsticks/2.png" alt="">
+                </div>
+                <div class="archive-textgroup">
+                    <span class="achive-brand-name">CHANEL</span>
+                    <span class="achive-name">香奈兒超炫耀唇膏</span>
+                    <div class="btn-wrapper">
+                        <div class="btn-outline-arrow">
+                            <a href="#">
+                                <span>看看這隻唇膏</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card3 -->
+            <div class="archive-card" data-brand="SHISEIDO" data-color="玫瑰粉" data-href="product_003.html">
+                <div class="archive-pic">
+                    <img src="./img/lipsticks/3.jpg" alt="">
+                </div>
+                <div class="archive-textgroup">
+                    <span class="achive-brand-name">SHISEIDO</span>
+                    <span class="achive-name">超進化絲絨緞光唇膏</span>
+                    <div class="btn-wrapper">
+                        <div class="btn-outline-arrow">
+                            <a href="#">
+                                <span>看看這隻唇膏</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card4 -->
+            <div class="archive-card" data-brand="RMK" data-color="酒紅色">
+                <div class="archive-pic">
+                    <img src="./img/lipsticks/4.jpg" alt="">
+                </div>
+                <div class="archive-textgroup">
+                    <span class="achive-brand-name">RMK</span>
+                    <span class="achive-name">瑩柔潤透口紅</span>
+                    <div class="btn-wrapper">
+                        <div class="btn-outline-arrow">
+                            <a href="#">
+                                <span>看看這隻唇膏</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card5 -->
+            <div class="archive-card" data-brand="BOBBI BROWN" data-color="珊瑚粉">
+                <div class="archive-pic">
+                    <img src="./img/lipsticks/5.png" alt="">
+                </div>
+                <div class="archive-textgroup">
+                    <span class="achive-brand-name">BOBBI BROWN</span>
+                    <span class="achive-name">金緻緞光唇膏</span>
+                    <div class="btn-wrapper">
+                        <div class="btn-outline-arrow">
+                            <a href="#">
+                                <span>看看這隻唇膏</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card6 -->
+            <div class="archive-card" data-brand="DIOR" data-color="經典正紅">
+                <div class="archive-pic">
+                    <img src="./img/lipsticks/1.jpg" alt="">
+                </div>
+                <div class="archive-textgroup">
+                    <span class="achive-brand-name">DIOR</span>
+                    <span class="achive-name">迪奧藍星唇膏</span>
+                    <div class="btn-wrapper">
+                        <div class="btn-outline-arrow">
+                            <a href="#">
+                                <span>看看這隻唇膏</span>
+                                <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="nofound" id="noResult">
+        沒有符合條件的唇膏
+    </p>
+
+    <div class="footer">
+        <div class="sns-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
+        <div class="footer-menu">
+            <span>Contact: choilips@gmail.com</span>
+        </div>
+        <div class="logo">
+            <img src="./img/logo/logo.png" alt="CHOILIPS Logo" />
+        </div>
+        <div class="scroll-top">
+            <span class="scroll-text">TOP</span>
+            <span class="arrow">↑</span>
+        </div>
+    </div>
+    <script src="./jquery/jQuery3.7.1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
